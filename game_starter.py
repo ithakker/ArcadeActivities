@@ -5,11 +5,11 @@ import arcade
 WINDOW_WIDTH = 500
 WINDOW_HEIGHT = 500
 BACKGROUND_COLOR = arcade.color.BLACK
-GAME_TITLE = "Introduction"
+GAME_TITLE = "Ada or Potato"
 GAME_SPEED = 1/60
 
 
-class YourGameClassRenameThis(arcade.Window):
+class Ada_or_potato(arcade.Window):
     def __init__(self):
         """ Initialize variables """
         super().__init__(WINDOW_WIDTH, WINDOW_HEIGHT, GAME_TITLE)
