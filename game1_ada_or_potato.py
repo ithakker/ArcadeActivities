@@ -1,6 +1,5 @@
 import arcade
 
-
 # Define constants
 WINDOW_WIDTH = 500
 WINDOW_HEIGHT = 500
@@ -10,7 +9,6 @@ GAME_SPEED = 1/60
 
 IMAGE_ADA = arcade.load_texture("images/ada.png")
 IMAGE_POTATO = arcade.load_texture("images/potato.png")
-
 
 class Ada_or_potato(arcade.Window):
     def __init__(self):
@@ -46,7 +44,6 @@ class Ada_or_potato(arcade.Window):
         else:
             self.score -= 1
 
-
 class ada(arcade.Sprite):
     def __init__(self):
         super().__init__("images/ada.png")
@@ -74,11 +71,6 @@ class potato(arcade.Sprite):
             self.alpha = 255
         else:
             self.alpha = 0
-
-
-
-
-
 
 def main():
     window = Ada_or_potato()
